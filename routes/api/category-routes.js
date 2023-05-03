@@ -12,7 +12,7 @@ router.get("/", async (req, res) => {
         model: Product,
       },
     });
-    res.json(categoryData);
+    res.status(200).json(categoryData);
   } catch (err) {
     console.error(err);
     res.status(500).json(err);
@@ -43,8 +43,7 @@ router.post("/", async (req, res) => {
   // create a new category
   try {
     const categoryData = await Category.create({
-      id: req.body.id,
-      name: req.body.name,
+      category_name: req.body.category_name,
     });
     res.status(200).json(categoryData);
   } catch (err) {
