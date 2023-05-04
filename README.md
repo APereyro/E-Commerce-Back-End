@@ -6,8 +6,10 @@
 
 ## Description
 
-back end for an e-commerce site.
+Back End for an e-commerce site.
 
+>>> WalkThrough-Video https://drive.google.com/file/d/1_3zBX1NgWEhfCiNGfAVu9npjTISQht_T/view
+>>> 
 ## Table of Contents
 
 - [Installation](#installation)
